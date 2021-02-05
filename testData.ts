@@ -34,7 +34,7 @@ export const getRandomUser = (): User => {
   const rnd = getRandomSpanishPhone()
   const email = `random${rnd.fullPhoneNumber}@gmail.com`
   // Creating a "non-weak" passcode.
-  const passcode = '235689'
+  const passcode = '2356'
     .split('')
     .sort(() => 0.5 - Math.random())
     .join('')
